@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png);
+   background-size: cover;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+    
+}
+
+#logo{
+    height: 70px;
+    width: 180px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #005fa2;
+    margin-right: 70px;
+}
+
+.main1{
+    padding: 3%;
+    border-radius: 20px;
+    background-color: #1fa83d;
+    margin-left: 70px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.ball{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    margin-bottom: 30px;
+
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ind{
+    margin-bottom: 30px;
+}
+
+.pak{
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 100;
+    font-weight: bolder;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon1{
+    padding: 3%;
+    margin-top: 30px;
+}
+.icon2{
+    padding:3%;
+    margin-top: 30px;
+
+}
